@@ -1,0 +1,96 @@
+/* General */
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e7d32;
+  padding: 15px 30px;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+.App-header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #a5d6a7;
+  border-radius: 0 0 10px 10px;
+}
+
+.App-header h1 {
+  margin-bottom: 10px;
+}
+
+/* Land Cards */
+.land-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+}
+
+.land-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  max-width: 300px;
+  padding: 15px;
+  text-align: center;
+}
+
+.land-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* About & Contact */
+.about-section,
+.contact-section {
+  background-color: #e8f5e9;
+  padding: 40px 20px;
+  margin: 20px 0;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.about-section h2,
+.contact-section h2 {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2e7d32;
+  color: white;
+  border-top: 1px solid #ccc;
+}

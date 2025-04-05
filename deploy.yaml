@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: newdevops
-        image: anandhakumarkj/newdevops
+        image: anandhakumarkj/devopsproject
         imagePullPolicy: Always
         ports:
         - containerPort: 80

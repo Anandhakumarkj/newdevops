@@ -1,6 +1,6 @@
 FROM nginx:latest
 # Copy the built files from the previous stage
-COPY .github/workflows/ /usr/share/nginx/html
+COPY public/ /usr/share/nginx/html
 # Expose port 80 (the default HTTP port)
 EXPOSE 80
 # Start Nginx and keep it running in the foreground

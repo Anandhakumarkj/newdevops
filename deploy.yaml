@@ -2,21 +2,21 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: test
-  name: test
+    app: newdevops
+  name: newdevops
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: test
+      app: newdevops
   template:
     metadata:
       labels:
-        app: test
+        app: newdevops
     spec:
       containers:
-      - name: test
-        image: anandhakumarkj/devopsproject
+      - name: newdevops
+        image: anandhakumarkj/newdevops
         imagePullPolicy: Always
         ports:
         - containerPort: 80

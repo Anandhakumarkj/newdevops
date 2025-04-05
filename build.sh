@@ -1,8 +1,8 @@
 #!/bin/bash
-docker build -t task37 .
+docker build -t devopsproject .
 echo Hyyy
-docker login -u deepan47 -p Deepan11032004
-docker tag task37 deepan47/finaltask
-docker push deepan47/finaltask
+docker login -u anandhakumarkj -p Anandha22004
+docker tag devopsproject anandhakumarkj/newdevops
+docker push anandhakumarkj/newdevops
 kubectl apply -f  deploy.yaml --validate=false
 kubectl apply -f svc.yaml --validate=false
